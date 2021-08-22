@@ -22,7 +22,6 @@ USER_PLUGINS_DIR = os.path.expandvars("${HOME}/.config/eyeD3/plugins")
 DEFAULT_CONFIG_DEPRECATED = os.path.expandvars("${HOME}/.eyeD3/config.ini")
 USER_PLUGINS_DIR_DEPRECATED = os.path.expandvars("${HOME}/.eyeD3/plugins")
 
-
 def main(args, config):
     if "list_plugins" in args and args.list_plugins:
         _listPlugins(config)
